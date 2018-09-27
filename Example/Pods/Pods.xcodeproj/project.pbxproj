@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0A9368E9344C6633149E8BC98C994E6A /* RunTimeHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = E61D468F9B90D920A18016FC07DE4F4B /* RunTimeHelp.m */; };
-		1589D893D2E1E33494B302ACCAAAB46D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E015945F2755AAE7A4D29B8CC80D6 /* ReplaceMe.m */; };
 		23003E24C415D36DA3B51D32DD57317E /* NSObjectCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4401604967A7420027E19A04B07731 /* NSObjectCache-dummy.m */; };
 		262DDE0759369474DACDDA37C2AF0743 /* Pods-NSObjectCache_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6AAA6D12D85A25CC5C57BB3DF00F42 /* Pods-NSObjectCache_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B283E6E6F0E07F409677716A72AD2A8 /* NSObject+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 90413305733FC45ED2BA4D9B3ED754D1 /* NSObject+Hook.m */; };
@@ -46,7 +45,7 @@
 
 /* Begin PBXFileReference section */
 		061B806F08AD91D924917CC34243EE35 /* NSObjectCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSObjectCache.modulemap; sourceTree = "<group>"; };
-		079E2659FAFF178DA0D38965148F6633 /* NSObjectCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSObjectCache.framework; path = NSObjectCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		079E2659FAFF178DA0D38965148F6633 /* NSObjectCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSObjectCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F41A5CD364BFA3B5A73996A0A5A3492 /* NSObjectCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSObjectCache.xcconfig; sourceTree = "<group>"; };
 		12785ACFB30F32B6DAD9BB77C7376D21 /* Pods-NSObjectCache_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSObjectCache_Example-frameworks.sh"; sourceTree = "<group>"; };
 		19A31075741F4B03357654FF1F153AAD /* NSObject+Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Encode.m"; path = "NSObjectCache/Classes/NSObject+Encode.m"; sourceTree = "<group>"; };
@@ -64,28 +63,27 @@
 		7A67C6CFA4CD49B3210B83963794C18F /* NSObjectCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObjectCache-prefix.pch"; sourceTree = "<group>"; };
 		81464ECBAEB4CF59DFD14C3290A5AA82 /* Pods-NSObjectCache_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSObjectCache_Tests-resources.sh"; sourceTree = "<group>"; };
 		81A88F56C4E8652E6B465C423CA0BB22 /* Pods-NSObjectCache_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSObjectCache_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B8C7A4EA99DEC840954A0B101D8A1CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8B8C7A4EA99DEC840954A0B101D8A1CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8BA2B87BF1D70A52CB0C7C776FC68FD3 /* Pods-NSObjectCache_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSObjectCache_Tests.modulemap"; sourceTree = "<group>"; };
 		90413305733FC45ED2BA4D9B3ED754D1 /* NSObject+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Hook.m"; path = "NSObjectCache/Classes/NSObject+Hook.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98A2416C639616BE3565C953A76AC262 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98A2416C639616BE3565C953A76AC262 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A3CA627D1B520174663C83A78EA57282 /* Pods-NSObjectCache_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSObjectCache_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD5F89FCD37A74E1E18E8791CB580F1E /* NSObject+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Hook.h"; path = "NSObjectCache/Classes/NSObject+Hook.h"; sourceTree = "<group>"; };
 		ADD61BE1F411E71CDE493DDAD08A387B /* Pods-NSObjectCache_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSObjectCache_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B63E2498FB3EABB31A703BB2DAE92FAB /* Pods-NSObjectCache_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSObjectCache_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BCCCE54C05A3CCB4F6B851A1B2085F41 /* NSObjectCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NSObjectCache.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCCCE54C05A3CCB4F6B851A1B2085F41 /* NSObjectCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NSObjectCache.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C623D0257781C00AB9C5A49F83EFF270 /* Pods-NSObjectCache_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NSObjectCache_Example.modulemap"; sourceTree = "<group>"; };
 		CB6AAA6D12D85A25CC5C57BB3DF00F42 /* Pods-NSObjectCache_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSObjectCache_Example-umbrella.h"; sourceTree = "<group>"; };
 		CDC9C43B8789FED2CAAA286F5E283589 /* NSObjectCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObjectCache-umbrella.h"; sourceTree = "<group>"; };
 		D3866FFFD71597126C81B74C675860A9 /* NSObject+Cache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Cache.h"; path = "NSObjectCache/Classes/NSObject+Cache.h"; sourceTree = "<group>"; };
-		D49E015945F2755AAE7A4D29B8CC80D6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NSObjectCache/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D7D815CB9150EE3C555E4DC621C959FA /* RunTimeHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RunTimeHelp.h; path = NSObjectCache/Classes/RunTimeHelp.h; sourceTree = "<group>"; };
 		DBEB7B2E2331AE8B85FC34425997CE9A /* NSObject+Cache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Cache.m"; path = "NSObjectCache/Classes/NSObject+Cache.m"; sourceTree = "<group>"; };
 		E10F5D43A60490FB577026C1418887FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49DC31C107D73652B4964C19C6D07C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E544821B0154C56A9232F83051C72C04 /* Pods_NSObjectCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSObjectCache_Tests.framework; path = "Pods-NSObjectCache_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E544821B0154C56A9232F83051C72C04 /* Pods_NSObjectCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSObjectCache_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61D468F9B90D920A18016FC07DE4F4B /* RunTimeHelp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RunTimeHelp.m; path = NSObjectCache/Classes/RunTimeHelp.m; sourceTree = "<group>"; };
-		E76E777E5D15DB87C834A6E8D23313B9 /* Pods_NSObjectCache_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSObjectCache_Example.framework; path = "Pods-NSObjectCache_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76E777E5D15DB87C834A6E8D23313B9 /* Pods_NSObjectCache_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSObjectCache_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB41C4DEBFAA66EAF852B6CA18E7E9E5 /* Pods-NSObjectCache_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSObjectCache_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F614A10C9AC6DC2A77D34ACB236D575C /* Pods-NSObjectCache_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSObjectCache_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,7 +212,6 @@
 				19A31075741F4B03357654FF1F153AAD /* NSObject+Encode.m */,
 				AD5F89FCD37A74E1E18E8791CB580F1E /* NSObject+Hook.h */,
 				90413305733FC45ED2BA4D9B3ED754D1 /* NSObject+Hook.m */,
-				D49E015945F2755AAE7A4D29B8CC80D6 /* ReplaceMe.m */,
 				D7D815CB9150EE3C555E4DC621C959FA /* RunTimeHelp.h */,
 				E61D468F9B90D920A18016FC07DE4F4B /* RunTimeHelp.m */,
 				3CD6ED4671BFCA7E3B1F706AEEB63E50 /* Pod */,
@@ -375,7 +372,6 @@
 				30C6A9C819623324047630B57EC488A3 /* NSObject+Encode.m in Sources */,
 				2B283E6E6F0E07F409677716A72AD2A8 /* NSObject+Hook.m in Sources */,
 				23003E24C415D36DA3B51D32DD57317E /* NSObjectCache-dummy.m in Sources */,
-				1589D893D2E1E33494B302ACCAAAB46D /* ReplaceMe.m in Sources */,
 				0A9368E9344C6633149E8BC98C994E6A /* RunTimeHelp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
