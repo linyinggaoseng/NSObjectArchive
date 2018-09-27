@@ -1,0 +1,16 @@
+PODS:
+  - NSObjectCache (0.1.0)
+
+DEPENDENCIES:
+  - NSObjectCache (from `../`)
+
+EXTERNAL SOURCES:
+  NSObjectCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSObjectCache: 7502704384dab2d1a57ba6f1063aba76f5ec9a0b
+
+PODFILE CHECKSUM: f71406a31d79c4e6d0102193d0272fe1403e6c35
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,22 @@
+{
+  "name": "NSObjectCache",
+  "version": "0.1.0",
+  "summary": "A short description of NSObjectCache.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/linyinggaoseng/NSObjectCache",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "linyinggaoseng": "mxf@11wlw.com"
+  },
+  "source": {
+    "git": "https://github.com/linyinggaoseng/NSObjectCache.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NSObjectCache/Classes/**/*"
+}

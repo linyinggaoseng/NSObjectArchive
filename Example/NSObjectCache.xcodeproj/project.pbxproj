@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7192927277451F2EF55DE972 /* Pods_NSObjectCache_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0118BFB1E01D1F1AB4670F5C /* Pods_NSObjectCache_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		FA94C62A215CD5EC00A37C30 /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FA94C627215CD5EC00A37C30 /* BaseEntity.m */; };
+		FA94C62B215CD5EC00A37C30 /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FA94C629215CD5EC00A37C30 /* UserEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 /* Begin PBXFileReference section */
 		0118BFB1E01D1F1AB4670F5C /* Pods_NSObjectCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSObjectCache_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C31A5AF2DD22215CB3DDECB /* Pods-NSObjectCache_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSObjectCache_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSObjectCache_Example/Pods-NSObjectCache_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2A715D55279B50E4A4F2F253 /* NSObjectCache.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NSObjectCache.podspec; path = ../NSObjectCache.podspec; sourceTree = "<group>"; };
+		2A715D55279B50E4A4F2F253 /* NSObjectCache.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NSObjectCache.podspec; path = ../NSObjectCache.podspec; sourceTree = "<group>"; };
 		42CB581486BB464E7CCA0575 /* Pods-NSObjectCache_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSObjectCache_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSObjectCache_Tests/Pods-NSObjectCache_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NSObjectCache_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSObjectCache_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +66,13 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD6C6E86C251CFF453B5AA4B /* Pods-NSObjectCache_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSObjectCache_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSObjectCache_Example/Pods-NSObjectCache_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C21C0C36954AB3260C0B36BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D7F4D86E518E0186126561F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C21C0C36954AB3260C0B36BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D7F4D86E518E0186126561F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E98F6CE2E99D8CFE2C1F6192 /* Pods-NSObjectCache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSObjectCache_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSObjectCache_Tests/Pods-NSObjectCache_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA94C626215CD5EC00A37C30 /* BaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEntity.h; sourceTree = "<group>"; };
+		FA94C627215CD5EC00A37C30 /* BaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEntity.m; sourceTree = "<group>"; };
+		FA94C628215CD5EC00A37C30 /* UserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEntity.h; sourceTree = "<group>"; };
+		FA94C629215CD5EC00A37C30 /* UserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,7 @@
 		6003F593195388D20070C39A /* Example for NSObjectCache */ = {
 			isa = PBXGroup;
 			children = (
+				FA94C625215CD5EC00A37C30 /* Model */,
 				6003F59C195388D20070C39A /* MAppDelegate.h */,
 				6003F59D195388D20070C39A /* MAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +201,17 @@
 				D7F4D86E518E0186126561F3 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		FA94C625215CD5EC00A37C30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA94C626215CD5EC00A37C30 /* BaseEntity.h */,
+				FA94C627215CD5EC00A37C30 /* BaseEntity.m */,
+				FA94C628215CD5EC00A37C30 /* UserEntity.h */,
+				FA94C629215CD5EC00A37C30 /* UserEntity.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,7 +375,9 @@
 			files = (
 				6003F59E195388D20070C39A /* MAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MViewController.m in Sources */,
+				FA94C62B215CD5EC00A37C30 /* UserEntity.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				FA94C62A215CD5EC00A37C30 /* BaseEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

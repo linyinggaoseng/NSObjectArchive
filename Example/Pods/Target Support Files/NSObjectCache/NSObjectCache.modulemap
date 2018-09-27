@@ -1,0 +1,6 @@
+framework module NSObjectCache {
+  umbrella header "NSObjectCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_NSObjectCache_Tests {
+  umbrella header "Pods-NSObjectCache_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
