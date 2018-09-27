@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NSObjectCache'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NSObjectCache.'
+  s.summary          = '一个方便的对自定义对象和数组备忘的工具类'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/linyinggaoseng/NSObjectCache'
+  s.homepage         = 'https://github.com/linyinggaoseng/NSObjectArchive'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'linyinggaoseng' => 'mxf@11wlw.com' }
-  s.source           = { :git => 'https://github.com/linyinggaoseng/NSObjectCache.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/linyinggaoseng/NSObjectArchive.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
