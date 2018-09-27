@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NSObjectCache_Example' do
+  pod 'NSObjectCache', :path => '../'
+
+  target 'NSObjectCache_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
