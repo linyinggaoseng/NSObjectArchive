@@ -8,5 +8,6 @@
 #import <Foundation/Foundation.h>
 
 @interface RunTimeHelp : NSObject
-
++ (NSArray *)propertyNames:(Class)klass;
++(void)exchangeMethod:(SEL)originSelector sourceSelector:(SEL)sourceSelector class:(Class)theClsss;
 @end
